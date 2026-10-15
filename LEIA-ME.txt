@@ -1,9 +1,20 @@
 ATUALIZAÇÃO DO APLICATIVO
 
-Novidades:
+Correção para instalação no celular:
+- Inclui ícones PNG nos tamanhos 192x192 e 512x512 recomendados para instalação no Chrome.
+- Atualiza o cache para v3 e inclui os novos ícones.
+
+Também mantém os recursos anteriores:
 - Produtos contados ficam destacados em verde.
 - Filtros para Pendentes, Contados e Todos.
-- Botão para zerar a contagem. A confirmação limpa quantidades, lotes e validades registrados, mantendo lista e saldo exportados.
-- O cache do aplicativo foi atualizado para v2, para os aparelhos baixarem a nova versão.
+- Botão para zerar a contagem com confirmação.
+- Conversão para caixas dos dois produtos Perdigão contabilizados por kg.
+- Listas separadas de divergências para falta e sobra.
 
-Para substituir no GitHub: abra o repositório, escolha Add file > Upload files, selecione os arquivos index.html, manifest.webmanifest, sw.js e icon.svg desta pasta, confirme a substituição e clique Commit changes. Depois aguarde a publicação na aba Actions.
+Para atualizar no GitHub:
+1. Extraia este ZIP no computador.
+2. No repositório, clique em Add file > Upload files.
+3. Selecione todos os arquivos desta pasta, incluindo icon-192.png e icon-512.png.
+4. Confirme a substituição dos arquivos existentes e clique em Commit changes.
+5. Aguarde a publicação terminar em Actions.
+6. No celular, abra novamente o site no Chrome, atualize a página e tente instalar pelo menu ⋮ > Instalar app.
