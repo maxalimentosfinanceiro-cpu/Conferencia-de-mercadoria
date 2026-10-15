@@ -1,19 +1,9 @@
-CONTAGEM DE ESTOQUE — protótipo para celular
+ATUALIZAÇÃO DO APLICATIVO
 
-Arquivos: index.html, manifest.webmanifest, sw.js e icon.svg.
+Novidades:
+- Produtos contados ficam destacados em verde.
+- Filtros para Pendentes, Contados e Todos.
+- Botão para zerar a contagem. A confirmação limpa quantidades, lotes e validades registrados, mantendo lista e saldo exportados.
+- O cache do aplicativo foi atualizado para v2, para os aparelhos baixarem a nova versão.
 
-COMO USAR
-1. Publique estes quatro arquivos em um endereço HTTPS estático. O conteúdo importado não é enviado ao site: a leitura ocorre no navegador e as contagens ficam no armazenamento local do aparelho.
-2. Abra o endereço no Chrome do celular e use “Adicionar à tela inicial”/“Instalar”. Depois da primeira abertura, a tela do aplicativo pode ser usada sem internet.
-3. Toque em Importar exportação e escolha o arquivo .xlsx. A planilha esperada tem, na primeira aba, colunas A:E: código, produto, embalagem, unidade e saldo no sistema. Também aceita CSV separado por ponto e vírgula.
-4. Registre cada lote separadamente, com quantidade, lote e validade. Lote e validade são opcionais.
-5. Use a aba Divergências para ver as duas listas e Exportar contagem para salvar um CSV que abre no Excel.
-
-REGRA ESPECIAL
-Códigos 1328 e 1326 (Mortadela de frango Perdigão e Mortadela Perdigão) são contados em kg e exibem equivalente em caixas de 14 kg. O saldo exportado está em KG, portanto a comparação física x sistema é feita em kg; o relatório também exibe o equivalente em caixas.
-
-OBSERVAÇÕES DO PROTÓTIPO
-- Dados salvos apenas no navegador/aparelho. Limpar os dados do navegador pode apagar a contagem; exporte cópias regularmente.
-- Ao importar outra exportação, as contagens dos códigos que continuarem na lista são mantidas.
-- Use somente dispositivos autorizados pela empresa e evite dados sensíveis em hospedagens que não sejam aprovadas.
-- Este é um protótipo estático, sem sincronização entre aparelhos e sem login.
+Para substituir no GitHub: abra o repositório, escolha Add file > Upload files, selecione os arquivos index.html, manifest.webmanifest, sw.js e icon.svg desta pasta, confirme a substituição e clique Commit changes. Depois aguarde a publicação na aba Actions.
